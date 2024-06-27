@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="container">
+        <div class="innerwrap">
+        
+            <section class="section1 clearfix">
+                <div class="textcenter">
+                    <span class="shtext">Contact Us</span>
+                    <span class="seperator"></span>
+                    <h1>Drop Us a Mail</h1>
+                </div>
+            </section>
+        
+            <section class="section2 clearfix">
+                
+                <div class="col2 column2 last">
+                    <div class="sec2innercont">
+                        <div class="sec2addr">
+                            <p>Pundi road Muhammadiya masjid Tasgaon</p>
+                            <p><span class="collig">Phone :</span> +91 9975189597</p>
+                            <p><span class="collig">Email :</span> shafitamboli@gmail.com</p>
+                            <p><span class="collig">Fax :</span> +91 9112314914</p>
+                        </div>
+                    </div>
+                    <div class="sec2contactform">
+                        <h3 class="sec2frmtitle">Want to Know More?? Drop Us a Mail</h3>
+                        <form action="process_contact.php" method="POST">
+                            <div class="clearfix">
+                                <input class="col2 first" type="text" name="first_name" placeholder="FirstName" required>
+                                <input class="col2 last" type="text" name="last_name" placeholder="LastName" required>
+                            </div>
+                            <div class="clearfix">
+                                <input class="col2 first" type="email" name="email" placeholder="Email" required>
+                                <input class="col2 last" type="text" name="contact_number" placeholder="Contact Number" required>
+                            </div>
+                            <div class="clearfix">
+                                <textarea name="message" id="" cols="30" rows="7" placeholder="Your message here..." required></textarea>
+                            </div>
+                            <div class="clearfix"><input type="submit" value="Send"></div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        
+        </div>
+    </div>
+</body>
+</html>
